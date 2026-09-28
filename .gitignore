@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Editors
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+
+# Raw downloads (re-downloadable)
+data/raw/*
+!data/raw/.gitkeep
+
+# Built from data/raw by pipeline.data
+data/real/*.parquet
+
+# Run logs
+data/synthetic/*.log
+
+# Environment
+.env
+/case_study.pdf
+
+# LaTeX build files
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.fdb_latexmk
+paper/*.fls
+paper/*.log
+paper/*.out
+paper/*.synctex.gz

@@ -1,0 +1,5 @@
+arm,trip_id,reason
+haiku/neutral,16106126,11 rows for 12 stops
+haiku/neutral,16204783,bad departure time ''
+haiku/instructed,16177630,5 rows for 6 stops
+haiku/instructed,16106126,10 rows for 12 stops

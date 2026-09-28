@@ -1,0 +1,24 @@
+[project]
+name = "fabricated-numbers"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "claude-agent-sdk>=0.2.157",
+    "huggingface-hub>=2.0.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "pyarrow>=25.0.1",
+    "scipy>=1.18.1",
+    "spylls>=0.1.7",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

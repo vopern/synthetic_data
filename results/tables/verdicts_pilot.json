@@ -1,0 +1,17 @@
+{
+  "haiku": {
+    "H1": "falsified",
+    "H2": "supported",
+    "H3": "falsified",
+    "H3_correlation_gap_closed": false,
+    "H3_recovery_gap_open": true
+  },
+  "sonnet": {
+    "H1": "falsified",
+    "H2": "supported",
+    "H3": "falsified",
+    "H3_correlation_gap_closed": true,
+    "H3_recovery_gap_open": false
+  },
+  "control": "passed"
+}
